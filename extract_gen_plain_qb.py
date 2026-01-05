@@ -1,7 +1,3 @@
-!python -m pip install PyPDF2
-!python -m pip install reportlab
-!python -m pip install pdfplumber
-
 import hashlib
 
 _real_md5 = hashlib.md5
