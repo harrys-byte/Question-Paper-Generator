@@ -10,7 +10,7 @@ def safe_md5(*args, **kwargs):
 
 hashlib.md5 = safe_md5
 
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
